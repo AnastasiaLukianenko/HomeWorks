@@ -1,0 +1,150 @@
+body {
+    font-family: 'Cera Pro';
+    font-weight: 400;
+    font-style: normal;
+   
+    width: 1440px;
+}
+
+.categories  {
+    display: inline-block;
+    float: left;
+    width: 310px;
+
+    background: rgba(251, 251, 251, 1);
+   
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 171px 50px 0px 135px;
+    
+}
+li a {
+    text-decoration: none;
+    color:rgba(61, 61, 61, 1);
+    padding-left: 30px;
+
+}
+li:last-child {
+    padding-bottom: 377px;
+}
+
+.categories a:active
+ { 
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;}  
+.categories a:focus{ 
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;}  
+   
+h1 {
+   
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    padding: 14px 0px 7px 18px;
+}
+main {
+  width: calc(100%-495px);
+  
+    
+}
+ select {
+    border: none;
+
+}
+.sort-options {
+float: left;
+margin-top: 171px;
+padding-left: 385px;
+padding-bottom: 38px;
+
+}
+.produkt-filter a:last-child {
+   padding-right: 0px;
+}
+.produkt-filter a:hover {
+    text-decoration: underline; 
+    transition: 0.3s;
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+}
+   
+.produkt-filter a {
+    padding-right: 40px;
+    padding-bottom: 31px;
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+   
+   }
+   section .produkt-filter{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    
+   }
+
+.tabs {
+   float: left;
+    margin-top: 171px;
+    padding-bottom: 38px;
+   
+}
+
+.produkt-item {
+    float: left;
+    width: 258px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+}
+.produkt-item-image {
+    background-color:rgba(251, 251, 251, 1);
+    padding: 34px 4px 19px 4px;
+
+}
+.produkt-item-name {
+    
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16px;
+   color: rgba(61, 61, 61, 1);
+   padding-top: 5px;
+
+}
+.produkt-item-price {
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(70, 163, 88, 1);
+    padding-top: 5px;
+}
+.pagination {
+    float: right; 
+    margin-top: 90px; 
+    margin-right: 110px
+   
+}
+
+.pagination-btn { 
+    width: 35px;
+    height: 35px;
+
+    background-color:rgb(255, 255, 255) ;
+    padding: 10px 10px;
+    padding-right: 10px; 
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 4px;
+    color: rgba(61, 61, 61, 1);
+    }
+
+.pagination-btn:hover {
+    background-color: rgba(70, 163, 88, 1);
+    ;
+    color:rgb(255, 255, 255) ;
+}
+.pagination-btn:last-child {
+    padding: 0px;
+}
