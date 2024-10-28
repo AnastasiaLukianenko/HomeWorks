@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Cera Pro'; 
     font-weight: 400;
@@ -16,15 +17,18 @@ body{
     margin-bottom: 138px; 
  
 }
-.blog-item{
-    display: flex;
-    justify-content: space-between;
-    max-width: 586px;
-    max-height: 256px;
-    background:  rgba(251, 251, 251, 1);
+.blog-item {
+    
 
-    align-items:right;
-   
+    display: flex;
+    align-items: flex-start;
+    flex: 1 1 250px;
+    min-width: 586px;
+    justify-content: space-between;
+    min-height: 250px;
+    background:  rgba(251, 251, 251, 1);
+     
+ 
 }
 .about-article {
     display: flex;
@@ -33,6 +37,7 @@ body{
     text-align:end;
     gap: 9px;
     padding-right: 38px;
+    margin: ;
    
 }
 .about-article p::after {
