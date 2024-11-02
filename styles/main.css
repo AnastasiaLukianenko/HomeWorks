@@ -25,6 +25,7 @@ li a {
     text-decoration: none;
     color:rgba(61, 61, 61, 1);
     padding-left: 30px;
+    cursor: pointer;
 
 }
 li:last-child {
