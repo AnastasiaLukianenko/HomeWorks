@@ -141,8 +141,8 @@ nav ul li ul {
    display: block;
    position: absolute;
    padding-left: 140px;
-   top: -157px;
-   left: 52px;
+   top: -153px;
+   left: 49px;
 
    
 }
@@ -273,7 +273,7 @@ span {
    
 }
 .second-menu li a, .third-menu li a {
-   padding: 7px 14px;
+   padding: 7px 0px 7px 14px;
    display: flex;
    justify-content: space-between;
    align-items: center;
