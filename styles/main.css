@@ -1,0 +1,231 @@
+body {
+    font-family: "Cera Pro";
+    font-weight: 400;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: rgba(251, 251, 251, 1);
+ 
+    padding: 30px 0px 20px 0px;
+    background-image: 
+    url('../img/background_1.svg'),
+    url('../img/background_2.svg'),
+   url('../img/background_3.svg');
+    background-repeat: no-repeat;
+    background-position: 3% 16%, 24% 16%, 45% 16%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px 0px 25px;
+    gap: 9px;
+   
+}
+li a {
+    text-decoration: none;
+}
+.join {
+    display: flex;
+    flex-direction: column ;
+    padding: 0px 30px;
+    gap: 25px;
+   
+}
+.join-container {
+    display: flex;
+    justify-content: center; 
+}
+.article-header, .join-submit {
+ 
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+
+
+
+}
+.article-text, .join-text {
+    font-size: 13px;
+    font-weight: 400; 
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+   
+ 
+}
+
+.about-shop article:nth-child(1),
+.about-shop article:nth-child(2) {
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+
+
+}
+
+
+   
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 22px 27px 23px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    
+    
+    }
+   
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(61, 61, 61, 1);
+  
+}
+.contact-img {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+}
+.contact-info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;line-height: 22px;
+    color:  rgba(61, 61, 61, 1);
+}
+
+
+
+.submit {
+    display: flex; 
+    align-items: center; 
+   
+}
+
+.submit input[type="email"] {
+    width: 300px; 
+    height: 40px; 
+    font-size: 16px; 
+    border: 1px solid transparent; 
+    border-radius: 6px 0 0 6px; 
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.submit input[type="email"], [placeholder] {
+    padding-left: 11px;
+    color: rgba(172, 172, 172, 1);
+}
+
+.submit input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 20px 0px rgba(169, 215, 178, 0.822) ;
+
+}
+
+.submit input[type="submit"] {
+    min-height: 40px;
+    padding: 12px 25px 12px 26px; 
+    font-size: 16px; 
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1); 
+    background-color: rgba(70, 163, 88, 1);
+    border: 1px solid transparent; 
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    
+}
+
+.submit input[type="submit"]:hover {
+    background-color: rgba(70, 163, 88, 0.8); 
+    border-color: rgba(70, 163, 88, 0.7); }
+
+    .footer {
+        background-color: rgba(251, 251, 251, 1);
+        padding: 33px 0px 22px;
+        color: rgba(61, 61, 61, 1);
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 29px;
+        border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    }
+    
+    .footer-nav {
+        flex: 1;
+        padding-left: 25px;
+        width: 70%;
+    }
+    
+    .footer-nav h3, .extra-section h3 {
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    
+    .footer-nav ul {
+        list-style: none;
+    }
+    
+    .footer-nav ul li {
+        padding-bottom: 10px;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: rgba(61, 61, 61, 1);
+        line-height: 22px;
+    }
+    
+    .extra-section {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    
+    .social-media {
+        padding-bottom: 33px;
+    }
+    
+   
+    .social-icons ul {
+        list-style: none;
+        display: flex; 
+        gap: 10px; 
+    }
+    
+    .social-icons li {
+        display: inline-block;
+    }
+    
+    .social-icons a {
+        display: inline-block;
+        color:  rgba(70, 163, 88, 0.6)
+        ; 
+       
+    }
+    .social-icons li:hover a {
+        color: rgba(70, 163, 88, 1) ;
+        ;
+       
+    }
+    .social-icons {
+        padding-bottom: 33px;
+    }
+    .footer-bottom {
+        text-align: center;
+        padding-top: 6px;
+        font-size: 14px;
+        color: rgba(114, 114, 114, 1);
+    
+    }
